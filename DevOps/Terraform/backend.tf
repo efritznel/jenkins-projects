@@ -2,7 +2,7 @@
 terraform {
   backend "s3" {
     bucket  = "3tier-project-homelab-backend-bucket006"
-    key     = "server_name/statefile"
+    key     = "__SERVER_NAME__/statefile"
     region  = "us-east-1"
     encrypt = true
   }
